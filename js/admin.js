@@ -85,11 +85,12 @@ $(document).ready(function () {
         errors.push("Question " + (x+1) + " does not have a question");
         readytosend = false;
         break;
-      }
+      } 
       for(let y=1;y<5;y++){
         if($("#Option"+y+""+(x + 1)).val()==""){
           errors.push("Question " + (x+1) + " does not have an Option "+y+"");
           readytosend=false;
+          //hh
         }
       }
     }
