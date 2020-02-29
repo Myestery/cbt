@@ -1,0 +1,103 @@
+body{
+background-color: darkblue;
+    padding: 0px;
+    margin:0px;
+    width: 100%;
+}
+button{
+    width:80px;
+    height:50px;
+    text-decoration: none;
+    text-align: left;
+    background-color: #BCB8C2;
+    padding: 10px 16px;
+    border-radius: 9px;
+    opacity: 0.8;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+    transition: 0.2s ease;
+}
+ #logout{
+    text-decoration: none;
+    text-align: left;
+    background-color: rgb(168, 136, 224);
+    border-radius: 9px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+    transition: 0.2s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   line-height:1px;
+   height:25px;
+}
+a{
+    text-decoration: none;
+    text-align: left;
+    background-color: rgb(168, 136, 224);
+    padding: 10px 16px;
+    border-radius: 9px;
+    opacity: 0.8;
+    font-size: 16px;
+    display: block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+    transition: 0.2s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#span{
+    font-size: large;
+    margin-left: 80px;
+    /* display:inline-block; */
+    float: right;
+    text-decoration: solid;
+}
+h3{
+padding:5px;
+}
+header{
+    /* background-color: lightgreen; */
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    /* padding: 25px 40px; */
+    color:black;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    /* padding: 25px 40px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid white;
+    border-radius: 20px;
+    height:58px;
+}
+#container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 6px;
+    /* background-color: lightgreen; */
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.sublink{
+    display:block;
+    background-color: brown;
+    color:black;
+    float:left;
+}
+a:hover,a:active{
+    color:black;
+}
+.none{
+    display:none;
+}
+#remove{
+    width:70%;
+}
